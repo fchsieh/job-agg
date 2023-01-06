@@ -1,0 +1,20 @@
+[server]
+host = "localhost"
+port = 8888
+
+[database]
+database = ""
+collection = ""
+document = ""
+
+[firebase]
+url = ""
+credentials = "firebase.json"
+
+[mongo]
+url = ""
+
+
+[search]
+job_title = ["Software Engineer", "Backend Engineer"]
+job_level = ["Entry Level", "New Grad"]

@@ -1,0 +1,6 @@
+[submodule "job-agg-backend"]
+	path = job-agg-backend
+	url = https://github.com/fchsieh/job-list-backend
+[submodule "linkedin-scraper"]
+	path = linkedin-scraper
+	url = https://github.com/fchsieh/linkedin-jobs
