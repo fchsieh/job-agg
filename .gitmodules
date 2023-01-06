@@ -4,3 +4,6 @@
 [submodule "linkedin-scraper"]
 	path = linkedin-scraper
 	url = https://github.com/fchsieh/linkedin-jobs
+[submodule "job-agg-frontend"]
+	path = job-agg-frontend
+	url = https://github.com/fchsieh/job-agg-frontend
