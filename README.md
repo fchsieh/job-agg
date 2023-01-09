@@ -1,6 +1,6 @@
 # Job-agg
 
-Aggregator for job searching
+Job Aggregator (Job Agg) is a convenient app for searching and comparing jobs from multiple sites. It updates daily and stores data from the past 7 days. Give it a try and see how it can help you in your job search!
 
 ## Usage
 
@@ -32,6 +32,12 @@ cd linkedin-scraper && python ./main.py
 ```
 cd job-agg-backend && go run main.go
 ```
+
+## Serve Web App
+
+-   Set API URL: copy `api.json.tmp` to `api.json`
+-   Build Web App: `npm run build`
+-   Serve Web App: `serve -s build -l <PORT>`
 
 ## Configuration
 
