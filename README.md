@@ -2,6 +2,14 @@
 
 Aggregator for job searching
 
+## Usage
+
+-   Clone this repo with submodules
+
+```
+git clone --recurse-submodules
+```
+
 ## Dependencies
 
 -   Install python packages
@@ -11,7 +19,7 @@ cd linkedin-scraper && pip install -r requirements.txt
 ```
 
 -   Set up MongoDB
--   Download Firebase credential and rename into `firebase.json`
+-   Download the Firebase credential file and rename it into `firebase.json`, and put it under this directory
 
 ## Scrap LinkedIn jobs
 
@@ -27,4 +35,5 @@ cd job-agg-backend && go run main.go
 
 ## Configuration
 
-See `config.toml`
+-   Copy `config.toml.tmp` to `config.toml`
+-   See `config.toml`
