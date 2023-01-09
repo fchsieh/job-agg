@@ -1,6 +1,8 @@
 [server]
 host = "localhost"
 port = 8888
+delete_old_data = false
+delete_old_data_after = 30
 
 [database]
 database = ""
