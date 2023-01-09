@@ -2,6 +2,8 @@
 
 Job Aggregator (Job Agg) is a convenient app for searching and comparing jobs from multiple sites. It updates daily and stores data from the past 7 days. Give it a try and see how it can help you in your job search!
 
+Demo: [http://job-agg.shion.live](http://job-agg.shion.live)
+
 ## Usage
 
 -   Clone this repo with submodules
