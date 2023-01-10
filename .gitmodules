@@ -1,12 +1,12 @@
 [submodule "job-agg-backend"]
 	path = job-agg-backend
-	url = https://github.com/fchsieh/job-list-backend
-	branch = main
-[submodule "linkedin-scraper"]
-	path = linkedin-scraper
-	url = https://github.com/fchsieh/linkedin-jobs
+	url = https://github.com/fchsieh/job-agg-backend
 	branch = main
 [submodule "job-agg-frontend"]
 	path = job-agg-frontend
 	url = https://github.com/fchsieh/job-agg-frontend
+	branch = main
+[submodule "job-agg-scraper"]
+	path = job-agg-scraper
+	url = https://github.com/fchsieh/job-agg-scraper
 	branch = main
