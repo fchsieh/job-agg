@@ -14,8 +14,8 @@ url = "" # Firebase URL
 credentials = "firebase.json" # Firebase credentials file name
 
 [mongo]
-url = "mongodb://localhost:27017" # MongoDB URL
-dockerurl = "mongodb://mongo:27017" # For docker-compose, should be the same as in docker-compose.yml
+local_uri = "mongodb://localhost:27017" # For local MongoDB
+docker_uri = "mongodb://mongo:27017" # For Docker MongoDB
 
 [search]
 job_title = ["Software Engineer", "Backend Engineer"]
