@@ -1,5 +1,5 @@
 [server]
-host = "localhost"
+host = "0.0.0.0"
 port = 8888
 delete_old_data = true # Delete old data from database
 delete_old_data_after = 30 # Delete data older than 30 days
@@ -14,8 +14,8 @@ url = "" # Firebase URL
 credentials = "firebase.json" # Firebase credentials file name
 
 [mongo]
-url = "" # MongoDB URL
-
+url = "mongodb://localhost:27017" # MongoDB URL
+dockerurl = "mongodb://mongo:27017" # For docker-compose, should be the same as in docker-compose.yml
 
 [search]
 job_title = ["Software Engineer", "Backend Engineer"]

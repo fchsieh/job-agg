@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+    frontend:
+        build: ./job-agg-frontend
+        ports:
+            - "3000:3000"
+        container_name: jobagg-frontend
+        restart: always
+        links:
+            - backend
+    backend:
+        build: ./job-agg-backend
+        ports:
+            - "8888:8888"
+        container_name: jobagg-backend
+        environment:
+            - GIN_MODE=release
+        restart: always
+        links:
+            - mongo
+    mongo:
+        image: mongo
+        container_name: jobagg-mongo
+        restart: always
+        ports:
+            - "27017:27017"
